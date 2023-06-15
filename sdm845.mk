@@ -208,6 +208,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
+# Inherit from ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/sdm845-tavil-snd-card_Button_Jack.kl:system/usr/keylayout/sdm845-tavil-snd-card_Button_Jack.kl
