@@ -132,6 +132,7 @@ drm.service.enabled=true
 debug.hwui.skia_atrace_enabled=false
 debug.sf.enable_gl_backpressure=0
 debug.sf.enable_transaction_tracing=false
+debug.sf.predict_hwc_composition_strategy=0
 debug.sf.recomputecrop=0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
