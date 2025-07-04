@@ -28,7 +28,7 @@ TARGET_NO_BOOTLOADER := true
 # Camera
 MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+$(call soong_config_set,camera,override_format_from_reserved,true)
 TARGET_CAMERA_PACKAGE_NAME := com.xiaomi.sessionparams.clientName
 
 # Kernel
