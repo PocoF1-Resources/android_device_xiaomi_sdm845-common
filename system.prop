@@ -9,6 +9,12 @@ ro.config.vc_call_vol_steps=11
 # Bluetooth
 ro.bluetooth.a2dp_offload.supported=true
 
+# Blur
+ro.launcher.blur.appLaunch=0
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=0
+ro.sf.blurs_are_expensive=1
+
 # Camera
 camera.disable_zsl_mode=true
 
