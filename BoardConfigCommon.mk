@@ -25,12 +25,6 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
 TARGET_BOOTLOADER_BOARD_NAME := sdm845
 TARGET_NO_BOOTLOADER := true
 
-# Camera
-MALLOC_SVELTE := true
-MALLOC_SVELTE_FOR_LIBC32 := true
-$(call soong_config_set,camera,override_format_from_reserved,true)
-$(call soong_config_set,camera,package_name,com.xiaomi.sessionparams.clientName)
-
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 1
 BOARD_KERNEL_BASE := 0x00000000
