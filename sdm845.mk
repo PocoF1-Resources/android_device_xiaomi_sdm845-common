@@ -134,7 +134,6 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiDolby \
     XiaomiParts
 
 # Display
@@ -191,6 +190,10 @@ PRODUCT_PACKAGES += \
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.sdm
+
+# LunarisDolby
+PRODUCT_PACKAGES += \
+    LunarisDolby
 
 # Media
 PRODUCT_PACKAGES += \
