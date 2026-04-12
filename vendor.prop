@@ -109,7 +109,6 @@ vendor.camera.aux.packagelist=org.lineageos.aperture,com.android.camera,co.aospa
 ro.charger.enable_suspend=true
 
 # Chipset
-ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM845
 
 # CNE
